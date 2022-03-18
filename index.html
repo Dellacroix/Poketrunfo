@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>PokéTrunfo</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/campo.css"">
+    <link rel="stylesheet" href="css/lista.css"">
+    <link rel="stylesheet" href="css/global.css"">
+    <link rel="stylesheet" href="css/topo.css"">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="cabecalho"> 
+                <img src="imagens\pokemonLogo.png">
+            </div>
+            <div class="control">
+                <button id="new-game" onclick="sortearCarta()">Novo Jogo</button>
+                <button id="new-round" class="new-round" onclick="novaRodada(true)">PuxarCarta</button>
+                <button id="continuar" class="continuar" onclick="comparar()">Continuar</button>
+
+                
+            </div>
+            <span id="console"class="console"></span>
+            
+
+            <div class="wrapper" id="tela">
+                <div class="popup" onclick="reiniciar()">
+                    <span class="popuptext" id="myPopup">Recomeçar"</span>
+                  </div>
+                <div class="campo-jogador campo">
+                    <div class="carta-jogador-ativa carta-ativa">
+                        <div class="upside">
+                            <div class="detalhes" id="detail" >
+                                <h2 class="nome"></h2>
+                                <span class="num"></span>
+                            </div>
+                            <div class="carta-imagem" id="imagem">
+                                <img src="">
+                            </div>
+                        </div>
+                        <div class="atributos" id="atributos">
+                            <h2> atributos</h2>
+                            <ul>
+                                <li id="atk">atk:1</li>
+                                <li id="def">def:2</li>
+                                <li id="spatk">spatk:3</li>
+                                <li id="spdef">spdef:4</li>
+                                <li id="spd">spd:5</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="contador" id="contador-jogador"></div>
+                </div>
+                <div class="campo-maquina campo">
+                    <div class="carta-maquina-ativa carta-ativa">
+                        <div class="upside">
+                            <div class="detalhes" id="detail-maquina" >
+                                <h2 class="nome">Pokémon Trunfo</h2>
+                                <span class="num">000</span>
+                            </div>
+                            <div class="carta-imagem" id="imagem-maquina">
+                                <img src="https://freepikpsd.com/file/2019/10/pokemon-pokebola-png-4-Transparent-Images.png">
+                            </div>
+                        </div>
+                        <div class="atributos" id="atributos-maquina">
+                            <h2> atributos</h2>
+                            <ul>
+                                <li id="atk"></li>
+                                <li id="def"></li>
+                                <li id="spatk"></li>
+                                <li id="spdef"></li>
+                                <li id="spd"></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="contador" id="contador-maquina"></div>
+                </div>
+            </div>
+            
+        </div>
+    </main>
+    <script src="js/index.js"></script>
+</body>
+</html>

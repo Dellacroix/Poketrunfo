@@ -1,0 +1,56 @@
+
+.campo{
+  background-color:rgb(2, 2, 2);
+  box-shadow: rgba(92, 92, 92, 0.733)0px 7px 29px 0px;
+  border-radius: 15px;
+  border-color: #000;
+  padding: 5px;
+  overflow: visible;
+width: 350px;
+height: 560px;
+margin: 2cm;
+float: left;
+/* justify-content: center; */
+/* align-content: space-around; */
+}
+
+.campo .upside{
+  background-color:rgb(233, 19, 19);
+  width: 350px;
+  height: 400px; 
+  border-radius: 15px;
+  display: block;
+  justify-content: baseline;
+  overflow: visible;
+  position: static;
+  box-shadow: rgba(255, 253, 253, 0.733)0px 7px 29px 0px;
+}
+
+
+.campo .detalhes{
+justify-content: center;
+text-align: left;
+float: left;
+}
+
+
+/* .carta-imagem {
+  position: static;
+  max-width: fit-content;
+  padding: 30px;
+  float: none;
+} */
+  
+  .carta-imagem img {
+    width: 300px;
+    height: 300px;
+    position: static;
+    /* margin-top: 1cm; */
+    /* margin-right: 0.5cm; */
+      }
+
+.contador{
+  /* margin-top: 50px; */
+  color: white;
+  
+}

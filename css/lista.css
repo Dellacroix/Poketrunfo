@@ -1,0 +1,33 @@
+
+
+
+.carta-ativa .atributos{
+    border: 1px transparent  black;
+    font-size: larger
+}
+
+
+.atributos .atbbt{
+    border-radius: 35%;
+    padding: 5px;
+    /* justify-content: right; */
+}
+
+.carta-status{
+    display: flexbox;
+}
+
+.carta-ativa .atributos{
+    background-color: whitesmoke;
+      display: flex;
+      justify-content: baseline;
+      padding: 80px 30px 25px;
+      margin-top: -130px;
+      border-bottom-left-radius: 8px;
+      border-bottom-right-radius: 8px;
+      height: 165px;
+      overflow: hidden;
+      position: static;
+      box-shadow: rgb(233, 19, 19)0px 7px 29px 0px;
+
+  }
