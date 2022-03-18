@@ -44,6 +44,17 @@ button {
         margin-top: -3cm;
     }
 
+    .trunfo:hover::after{
+        rotate: (45deg);
+    }
+
     .cabecalho img{
         max-height: 250px;
     }
+
+    .cabecalho img {
+        transition: transform .5s ease-in-out;
+      }
+     .cabecalho img:hover {
+        transform: rotate(45deg);
+      }
