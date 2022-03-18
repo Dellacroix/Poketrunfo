@@ -7,11 +7,11 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: url("../assets/imagens/wall.png");
+    background-color: aqua;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
-    background-origin: content-box; */
+    background-origin: content-box;
 }
 
 .container {
